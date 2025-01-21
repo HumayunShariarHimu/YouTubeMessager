@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>YouTube Messager</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="app">
+    <h1>YouTube Messaging</h1>
+    <div id="auth-container">
+      <button id="signin-button">Sign in with YouTube</button>
+    </div>
+    <div id="chat-container" style="display: none;">
+      <h2>Welcome, <span id="channel-name"></span>!</h2>
+      <div class="chat-box" id="chat-box"></div>
+      <div class="input-box">
+        <input type="text" id="message-input" placeholder="Type a message...">
+        <button id="send-button">Send</button>
+      </div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
